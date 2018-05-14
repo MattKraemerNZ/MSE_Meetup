@@ -1,9 +1,6 @@
 
 # coding: utf-8
 
-# In[ ]:
-
-
 import os
 import numpy as np
 import pandas as pd
@@ -37,7 +34,7 @@ result = np.array([testdata.T[0],testdata.T[1],mlp.predict(testdata)]).T
 plot_labeled_2d(result,'.')
 
 
-# In[ ]:
+# Nothing below this line matters for this test. ###########################################
 
 
 '''
